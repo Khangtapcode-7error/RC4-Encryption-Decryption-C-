@@ -16,4 +16,4 @@ Ví dụ: `rc4_encrypt.exe xinchao plaintext.txt ciphertext.bin`
 Ví dụ: `rc4_decrypt.exe xinchao ciphertext.bin decoded.txt`
     - Kết quả decoded.txt chứa text được giải mã
 ### Chú ý
-- <key> của 2 quá trình phải giống nhau
+- `<key>` của 2 quá trình phải giống nhau
