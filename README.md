@@ -2,10 +2,11 @@
 # Hướng dẫn dùng chương trình RC4
 ## Công cụ sử dụng
 - Sử dụng cmd (Command Prompt) để dùng lệnh chạy chương trình
-- Mở Notepad để theo dõi, chỉnh sửa text được mã hóa, giải mã 
-## Các câu lệnh sử dụng
+- Mở Notepad (hoặc cmd) để theo dõi, chỉnh sửa text được mã hóa, giải mã 
+## Các câu lệnh sử dụng trên cmd 
 - Bước 1: Lệnh di chuyển đến mục dự án `cd Rc4-cpp`
 - Bước 2: Lệnh biên dịch chương trình `make`
+- Bước 3(Nếu dùng Notepad thì bỏ qua): Tạo text và viết  `echo <text> > <input.txt>`
 ### Encrypt
 - Lệnh `rc4_encrypt.exe <key> <input.txt> <output.bin>`
 Ví dụ: `rc4_encrypt.exe xinchao plaintext.txt ciphertext.bin`
