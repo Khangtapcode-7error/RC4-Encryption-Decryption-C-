@@ -7,7 +7,7 @@
 - Bước 1: Lệnh di chuyển đến mục dự án `cd Rc4-cpp`
 - Bước 2: Lệnh biên dịch chương trình `make`
 - Bước 3: (Nếu dùng Notepad thì bỏ qua): Tạo text mới & viết hoặc ghi đè text trùng tên: `echo <text> > <input.txt>`
-  Ví dụ `echo Xin chao! Minh la Khang > plaintext.txt`
+-   Ví dụ `echo Xin chao! Minh la Khang > plaintext.txt`
 ### Encrypt
 - Lệnh `rc4_encrypt.exe <key> <input.txt> <output.bin>`
 Ví dụ: `rc4_encrypt.exe xinchao plaintext.txt ciphertext.bin`
