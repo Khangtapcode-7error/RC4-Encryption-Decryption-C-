@@ -20,3 +20,9 @@
 ### Chú ý
 - `<key>` của 2 quá trình phải giống nhau
 - In text trên cmd `type <input.txt>`
+### Bộ test
+| Key      | Plaintext        | Ciphertext (hex, chuẩn)        |
+| -------- | ---------------- | ------------------------------ |
+| `Key`    | `Plaintext`      | `BBF316E8D940AF0AD3`           |
+| `Wiki`   | `pedia`          | `1021BF0420`                   |
+| `Secret` | `Attack at dawn` | `45A01F645FC35B383552544B9BF5` |
