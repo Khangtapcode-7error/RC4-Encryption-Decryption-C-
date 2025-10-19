@@ -20,7 +20,7 @@
 ### Chú ý
 - `<key>` của 2 quá trình phải giống nhau
 - In text trên cmd `type <input.txt>`
-### Bộ test
+### Bộ Test
 | STT | Key         | Plaintext                    | Ciphertext (hex, chuẩn)                            |
 | --- | ----------- | ---------------------------- | -------------------------------------------------- |
 | 1   | `Key`       | `Plaintext`                  | `BBF316E8D940AF0AD3`                               |
