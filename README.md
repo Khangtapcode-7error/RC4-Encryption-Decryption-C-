@@ -20,7 +20,6 @@
 ### Chú ý
 - `<key>` của 2 quá trình phải giống nhau
 - In text trên cmd `type <input.txt>`
-- Dùng Notepad, cmd nhập text sẽ có `\n`, `\r` trong chuỗi -> luôn thừa 4 kí tự(2 byte) trong kết quả file hex
 ### Bộ test
 | Key      | Plaintext        | Ciphertext (hex, chuẩn)        |
 | -------- | ---------------- | ------------------------------ |
