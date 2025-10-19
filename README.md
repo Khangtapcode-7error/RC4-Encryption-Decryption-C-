@@ -21,8 +21,15 @@
 - `<key>` của 2 quá trình phải giống nhau
 - In text trên cmd `type <input.txt>`
 ### Bộ test
-| Key      | Plaintext        | Ciphertext (hex, chuẩn)        |
-| -------- | ---------------- | ------------------------------ |
-| `Key`    | `Plaintext`      | `BBF316E8D940AF0AD3`           |
-| `Wiki`   | `pedia`          | `1021BF0420`                   |
-| `Secret` | `Attack at dawn` | `45A01F645FC35B383552544B9BF5` |
+| STT | Key         | Plaintext                    | Ciphertext (hex, chuẩn)                            |
+| --- | ----------- | ---------------------------- | -------------------------------------------------- |
+| 1   | `Key`       | `Plaintext`                  | `BBF316E8D940AF0AD3`                               |
+| 2   | `Wiki`      | `pedia`                      | `1021BF0420`                                       |
+| 3   | `Secret`    | `Attack at dawn`             | `45A01F645FC35B383552544B9BF5`                     |
+| 4   | `Key`       | `RC4`                        | `EB9F7781B734CA72A719`                             |
+| 5   | `Test`      | `1234567890`                 | `7494C2E7104B0879ECA8`                             |
+| 6   | `123456`    | `abcdef`                     | `8C7CFFB36F01`                                     |
+| 7   | `RC4Test`   | `HELLO`                      | `A6F68D5D03`                                       |
+| 8   | `Crypto`    | `Security`                   | `68A2D0E8B3F46A47`                                 |
+
+
