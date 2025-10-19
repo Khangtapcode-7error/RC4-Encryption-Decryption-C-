@@ -6,7 +6,8 @@
 ## Các câu lệnh sử dụng trên cmd 
 - Bước 1: Lệnh di chuyển đến mục dự án `cd Rc4-cpp`
 - Bước 2: Lệnh biên dịch chương trình `make`
-- Bước 3(Nếu dùng Notepad thì bỏ qua): Tạo text và viết  `echo <text> > <input.txt>`
+- Bước 3: (Nếu dùng Notepad thì bỏ qua): Tạo text mới & viết hoặc ghi đè text trùng tên: `echo <text> > <input.txt>`
+  Ví dụ `echo Xin chao! Minh la Khang > plaintext.txt`
 ### Encrypt
 - Lệnh `rc4_encrypt.exe <key> <input.txt> <output.bin>`
 Ví dụ: `rc4_encrypt.exe xinchao plaintext.txt ciphertext.bin`
@@ -18,3 +19,4 @@ Ví dụ: `rc4_decrypt.exe xinchao ciphertext.bin decoded.txt`
     - Kết quả decoded.txt chứa text được giải mã
 ### Chú ý
 - `<key>` của 2 quá trình phải giống nhau
+- In text trên cmd `type <input.txt>`
