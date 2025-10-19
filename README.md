@@ -1,4 +1,4 @@
-# RC4-Encryption-Decryption-C-
+# RC4-Encryption-Decryption-C++
 # Hướng dẫn dùng chương trình RC4
 ## Công cụ sử dụng
 - Sử dụng cmd (Command Prompt) để dùng lệnh chạy chương trình
