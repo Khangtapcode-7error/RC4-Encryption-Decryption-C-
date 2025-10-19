@@ -44,6 +44,16 @@ bool RC4::processFile(const std::string& key,
                                       std::istreambuf_iterator<char>());
     in.close();
 
+    // Xóa ký tự xuống dòng (\r, \n) ở cuối file (tránh thừa 2 hoặc 4 ký tự)
+    while (!buffer.empty()) {
+        unsigned char last = buffer.back();
+        if (last == '\n' || last == '\r') {
+            buffer.pop_back();
+        } else {
+            break;
+        }
+    }
+
     RC4 rc4(key);
     rc4.process(buffer);
 
@@ -116,4 +126,5 @@ void saveToHexFile(const std::vector<unsigned char>& data, const std::string& fi
     }
     out.close();
 }
+
 
